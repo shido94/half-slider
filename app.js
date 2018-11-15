@@ -10,7 +10,6 @@ const app = express();
 
 const port = 3000;
 
-
 // app.use(express.limit('50MB'));
 app.use(bodyParser.json({limit: '50MB'}));
 app.use(bodyParser.urlencoded({limit: '50MB', extended: false}));
@@ -31,9 +30,6 @@ app.use('/user', userApi);
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, '/dist/rohit/index.html'));
 });
-
-
-
 
 // Server connection API
 
