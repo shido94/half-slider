@@ -8,3 +8,15 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+.row{
+  margin-top: 60px;
+  text-align: center;
+  justify-content: center;
+}
+
+
+
+img{
+  margin: 5px;
+}
