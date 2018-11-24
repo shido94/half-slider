@@ -19,5 +19,11 @@
 
 
 img{
-  margin: 5px;
+  margin: 20px;
+  width: 245px;
+  height: 150px;
+}
+
+i{
+  color: green;
 }
