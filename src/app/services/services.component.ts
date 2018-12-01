@@ -18,7 +18,7 @@ export class ServicesComponent implements  OnInit {
       $('#first').hide();
       $('#second').hide();
       $('#third').hide();
-      $('#forth').hide();
+      $('#fourth').hide();
       $('#fifth').hide();
       $('#sixth').hide();
 
@@ -34,7 +34,17 @@ export class ServicesComponent implements  OnInit {
         $('#third').toggle();
       });
 
+      $('#four').click(function() {
+        $('#fourth').toggle();
+      });
 
+      $('#five').click(function() {
+        $('#fifth').toggle();
+      });
+
+      $('#six').click(function() {
+        $('#sixth').toggle();
+      });
     });
   }
 

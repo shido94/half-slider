@@ -14,6 +14,6 @@
   margin-left: 20px;
 }
 
-.card h4{
-  margin: 10px 0 10px 10px;
+section div.container div.card h4{
+  padding-left: 10px;
 }
